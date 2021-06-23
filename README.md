@@ -34,6 +34,11 @@ $ kafkatunnel aws ec2-user@awsjumphost
 ```
 
 * manual passing your remote zookeeper/kafka and optionally schema registry IPs
+Sample:
+```bash
+$ kafkatunnel manual jumpBox zookeeperList kafkaList
+$ kafkatunnel manual 10.23.12.23 10.11.23.76 10.7.119.32,10.32.1.126,10.37.77.14,10.32.174.10
+```
 
 ```bash
 $ kafkatunnel manual 10.11.85.128,10.11.82.30,10.11.83.9 10.11.80.7,10.11.80.123,10.11.81.13 10.11.82.10,10.11.82.11
